@@ -1,12 +1,11 @@
 from main import main
 import json, streamlit as st
 
-st.title("Who Are You?")
+st.title("Where Are You?")
 
 col1, col2 = st.columns(2)
-# data = main()
-with open("data.json", "r") as file:
-    data = json.load(file)
+data = main()
+
 
 with col1:
     st.html(f"""
@@ -25,4 +24,9 @@ with col1:
 with col2:
     st.html(f'<img src="{data["flag"]["png"]}" alt="flag" height=230>')
 
-st.map(latitude=str(data["latitude"]), longitude=str(data["longitude"]))
+loc = [{
+    "latitude": data["latitude"],
+    "longitude": data["longitude"]
+}]
+
+st.map(data=loc, zoom=14)
