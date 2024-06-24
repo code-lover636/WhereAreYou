@@ -1,9 +1,10 @@
 import requests, os, json
 from dotenv import load_dotenv
 
-def fetch_data(url, API_KEY):
+def fetch_data(url, API_KEY, ip):
     params = {
         'api_key': API_KEY,
+        'ip_address': ip
     }
     
     response = requests.get(url, params=params)
@@ -14,11 +15,11 @@ def fetch_data(url, API_KEY):
     else:
         return {"error": f"Failed to fetch data: {response.status_code}"}
     
-def main():
+def main(ip):
     load_dotenv()
     API_KEY = os.getenv('API_KEY')
     SEARCH_URL = 'https://ipgeolocation.abstractapi.com/v1/'
-    data = fetch_data(SEARCH_URL, API_KEY)
+    data = fetch_data(SEARCH_URL, API_KEY, ip)
 
     with open("data.json", "w") as file:
         json.dump(data, file, indent=4)
@@ -26,4 +27,4 @@ def main():
     return data
 
 if __name__ == "__main__":
-    main()
+    main("37.19.205.154")

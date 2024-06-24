@@ -2,9 +2,10 @@ from main import main
 import json, streamlit as st
 
 st.title("Where Are You?")
+text = st.text_input("Enter Your IP Address: ")
+data = main(text)
 
 col1, col2 = st.columns(2)
-data = main()
 
 
 with col1:
