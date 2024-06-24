@@ -1,0 +1,45 @@
+{
+    "ip_address": "103.125.235.22",
+    "city": "Tokyo",
+    "city_geoname_id": 1850147,
+    "region": "Tokyo",
+    "region_iso_code": "13",
+    "region_geoname_id": 1850144,
+    "postal_code": "151-0053",
+    "country": "Japan",
+    "country_code": "JP",
+    "country_geoname_id": 1861060,
+    "country_is_eu": false,
+    "continent": "Asia",
+    "continent_code": "AS",
+    "continent_geoname_id": 6255147,
+    "longitude": 139.6899,
+    "latitude": 35.6893,
+    "security": {
+        "is_vpn": false
+    },
+    "timezone": {
+        "name": "Asia/Tokyo",
+        "abbreviation": "JST",
+        "gmt_offset": 9,
+        "current_time": "21:58:55",
+        "is_dst": false
+    },
+    "flag": {
+        "emoji": "\ud83c\uddef\ud83c\uddf5",
+        "unicode": "U+1F1EF U+1F1F5",
+        "png": "https://static.abstractapi.com/country-flags/JP_flag.png",
+        "svg": "https://static.abstractapi.com/country-flags/JP_flag.svg"
+    },
+    "currency": {
+        "currency_name": "Japanese Yen",
+        "currency_code": "JPY"
+    },
+    "connection": {
+        "autonomous_system_number": 3258,
+        "autonomous_system_organization": "xTom Pty Ltd",
+        "connection_type": "Corporate",
+        "isp_name": "Owl Limited",
+        "organization_name": "Owl Limited"
+    }
+}
