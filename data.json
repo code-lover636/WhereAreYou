@@ -1,45 +1,45 @@
 {
-    "ip_address": "111.92.45.24",
-    "city": "Thrissur",
-    "city_geoname_id": 1254187,
-    "region": "Kerala",
-    "region_iso_code": "KL",
-    "region_geoname_id": 1267254,
-    "postal_code": "680003",
-    "country": "India",
-    "country_code": "IN",
-    "country_geoname_id": 1269750,
+    "ip_address": "37.19.205.154",
+    "city": "Tokyo",
+    "city_geoname_id": 1850147,
+    "region": "Tokyo",
+    "region_iso_code": "13",
+    "region_geoname_id": 1850144,
+    "postal_code": "102-0082",
+    "country": "Japan",
+    "country_code": "JP",
+    "country_geoname_id": 1861060,
     "country_is_eu": false,
     "continent": "Asia",
     "continent_code": "AS",
     "continent_geoname_id": 6255147,
-    "longitude": 76.2157,
-    "latitude": 10.516,
+    "longitude": 139.6899,
+    "latitude": 35.6893,
     "security": {
         "is_vpn": false
     },
     "timezone": {
-        "name": "Asia/Kolkata",
-        "abbreviation": "IST",
-        "gmt_offset": 5,
-        "current_time": "19:08:16",
+        "name": "Asia/Tokyo",
+        "abbreviation": "JST",
+        "gmt_offset": 9,
+        "current_time": "22:45:04",
         "is_dst": false
     },
     "flag": {
-        "emoji": "\ud83c\uddee\ud83c\uddf3",
-        "unicode": "U+1F1EE U+1F1F3",
-        "png": "https://static.abstractapi.com/country-flags/IN_flag.png",
-        "svg": "https://static.abstractapi.com/country-flags/IN_flag.svg"
+        "emoji": "\ud83c\uddef\ud83c\uddf5",
+        "unicode": "U+1F1EF U+1F1F5",
+        "png": "https://static.abstractapi.com/country-flags/JP_flag.png",
+        "svg": "https://static.abstractapi.com/country-flags/JP_flag.svg"
     },
     "currency": {
-        "currency_name": "Indian Rupee",
-        "currency_code": "INR"
+        "currency_name": "Japanese Yen",
+        "currency_code": "JPY"
     },
     "connection": {
-        "autonomous_system_number": 17465,
-        "autonomous_system_organization": "Cable ISP in India",
-        "connection_type": "Cable/DSL",
-        "isp_name": "Asianet Satellite Communications Pvt Ltd",
-        "organization_name": "Asianet Satellite Communications Pvt Ltd"
+        "autonomous_system_number": 212238,
+        "autonomous_system_organization": "Datacamp Limited",
+        "connection_type": "Corporate",
+        "isp_name": "Intertelecom Ltd",
+        "organization_name": "Intertelecom Ltd"
     }
 }
